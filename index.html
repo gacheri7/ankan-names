@@ -7,48 +7,66 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.css" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <title>Hello, world!</title>
+  <title>Akan name calculator!</title>
 </head>
 
 <body>
-  <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-    <li class="nav-item" role="presentation">
-      <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
-        aria-controls="pills-home" aria-selected="true">Home</a>
-    </li>
-    <li class="nav-item" role="presentation">
-      <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
-        aria-controls="pills-profile" aria-selected="false">About</a>
-    </li>
-    <li class="nav-item" role="presentation">
-      <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
-        aria-controls="pills-contact" aria-selected="false">Contact</a>
-    </li>
-  </ul>
-  <div class="tab-content" id="pills-tabContent">
-    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...</div>
-    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
-    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
-  </div>
   <div class="container">
-    <div class="row">
-      <h1>ANKAN NAME CALCULATOR</h1>
-    </div>
+    <h1>AKAN NAME GENERATOR</h1>
+    <h2>The Akans are a meta-ethnicity who primarily live in Ghana and Ivory Coast. They have a fairly unique naming
+      system, which is based on the day in the week a child is born, and on the gender of the child. So a boy born on a
+      Monday would be named Kwadwo , and a girl would be called Adwoa. Each day has one or more variants, but
+      there's usually not much to choose from.
+
+    </h2>
+    <h2>The Akan Name Calculator takes your birthday and calculates the day of the week you were born and based upon
+      you gender generates your unique Akan name.</h2>
   </div>
-  <div class="jumbotrone"></div>
+  <div class="col-md-6">
+  <div class="card2">
+    <form id="date-form">
+      <div class="form-group">
+        <label for="EnterDate">Enter BirthDay Here</label>
+        <input type="date" class="form-control" id="date" required>
+      </div>
+      <p>Enter Gender Here</p>
+      <div class="form-check form-check-inline" id="gender">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" value="female" required>
+        <label class="form-check-label" for="inlineRadio1">Female</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" value="male" required>
+        <label class="form-check-label" for="inlineRadio2">Male</label>
+      </div> <br>
+      <div>
+        <button type="submit" id="btn" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+  </div>
+  </div>
+  </div>
+  <h2>Akan Naming According to Birth Day</h2>
+  <ul>
+    <h2>Male</h2>
+    <li>Sunday: Kwasi</li>
+    <li>Monday: Kwadwo</li>
+    <li>Tuesday: Kwabena</li>
+    <li>Wednesday: Kwaku</li>
+    <li>Thursday: Yaw</li>
+    <li>Friday: Kofi</li>
+    <li>Saturday: Kwame</li>
 
+    <h2>Female</h2>
+    <li>Sunday: Akosua</li>
+    <li>Monday: Adwoa</li>
+    <li>Tuesday: Abenaa</li>
+    <li>Wednesday: Akua</li>
+    <li>Thursday: Yaa</li>
+    <li>Friday: Afua</li>
+    <li>Saturday: Ama</li>
+  </ul>
 
-
-
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
-    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
-    crossorigin="anonymous"></script>
+  </div>
 </body>
 
 </html>
