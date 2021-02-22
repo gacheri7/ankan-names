@@ -4,7 +4,7 @@ This  is a web application that takes a user's birthday and calculates the day o
 ## Author:Gacheri
 
 ## Installation
-clone project from: 
+clone project from: https://github.com/gacheri7/ankan-names.git
 
 ## Technologies used
 html5 css3 Bootstrap  Javascript
@@ -19,7 +19,7 @@ History
 TODO: Write history
 
 ## Demo
-Here is a working live demo : 
+Here is a working live demo : https://gacheri7.github.io/ankan-names/
 
 ## Contact
 You can follow me on github :https://github.com/gacheri7
